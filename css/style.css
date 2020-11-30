@@ -1,0 +1,43 @@
+ul{
+    background: rgb(110, 233, 163);
+    width: 100vw;
+    height: 200px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    animation: ul 3s ;
+    
+  }
+
+  li{
+    display: inline;
+    padding: 5%;
+}
+
+ul li{
+    margin: 6px;
+    font-size: 100px;
+    
+}
+
+@keyframes ul{
+    0%{
+        width: 25vw;
+        background-color: rgb(241, 193, 59);
+    }
+
+    25% {
+        width: 50vw;
+        background-color: rgb(233, 117, 64);
+    }
+
+    50% {
+        width: 75vw;
+        background-color: rgb(23, 245, 245);
+    }
+
+    100% {
+        width: auto;
+        background-color: rgb(245, 88, 88);
+    }
+}
